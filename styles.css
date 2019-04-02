@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid lightblue;
+    color: white;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid pink;
+    padding: 10px;
+}
+
+.cart {
+    justify-content: space-around;
+    border: 2px solid pink;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-right: 10px;
+}
+
+.money:before {
+    content: '$';
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    background: grey;
+    color: pink;
+    border-radius: 10px;
+    border: solid grey 2px;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/e2/7c/71/e27c718c4a009fc4241a2abf75673984.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
